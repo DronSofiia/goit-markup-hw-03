@@ -52,9 +52,9 @@ img{
 }
 .header-nav{
     display: flex;
-    align-items: center
-    
+    align-items: center;
 }
+
 .header-nav-studio{
     font-weight: 700;
     font-size: 18px;
@@ -82,11 +82,15 @@ img{
 .header-nav-list:not(:last-child) {
     padding-right: 40px;
 }
-.header-nav-li{
+.header-nav-list-item{
+   
+}
+.header-nav-links{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy_blue);
+    padding: 24px 0
 }
 
 .header-nav-li:hover,
