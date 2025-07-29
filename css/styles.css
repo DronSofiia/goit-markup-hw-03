@@ -47,12 +47,13 @@ img{
     border-bottom: 1px solid var(--color-cornflower);
 }
 .header-nav-address{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
     display: flex;
-    padding: 24px 0;
 }
 .header-nav{
     display: flex;
-    align-items: center;
 }
 
 .header-nav-studio{
@@ -64,6 +65,8 @@ img{
     text-transform: uppercase;
     font-family: var(--second-fonts);
     margin-right: 76px;
+    padding-top: 24px;
+    
 }
 .header-nav-logo{
     font-weight: 700;
@@ -79,39 +82,33 @@ img{
     gap: 40px;
    
 }
-.header-nav-list:not(:last-child) {
-    padding-right: 40px;
-}
-
-   
-
-.header-nav-links{
+.header-nav-list-item{
+    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy_blue);
-    padding: 24px 0
 }
 
-.header-nav-li:hover,
-.header-nav-li:focus{
+
+.header-nav-list-item:hover,
+.header-nav-list-item:focus{
     color: var(--color-ocean);
 }
 .header-adress{
     font-style: normal;
 }
 .header-adress-list{
-    display: flex;
-    margin-left: 332px;
-    gap: 40px;
-}
-.header-adress-lins{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    margin-left: 332px;
 }
-.header-adress-lins:hover,
-.header-adress-lins:focus{
+.header-adress-list:hover,
+.header-adress-list:focus{
     color: var(--color-ocean);
 }
 .web-head-section{
