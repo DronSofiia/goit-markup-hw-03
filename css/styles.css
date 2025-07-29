@@ -54,6 +54,7 @@ img{
 }
 .header-nav{
     display: flex;
+    align-items: center;
 }
 
 .header-nav-studio{
@@ -65,7 +66,7 @@ img{
     text-transform: uppercase;
     font-family: var(--second-fonts);
     margin-right: 76px;
-    padding-top: 24px;
+    padding: 24px 0;
     
 }
 .header-nav-logo{
@@ -80,10 +81,10 @@ img{
 .header-nav-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
    
 }
 .header-nav-list-item{
-    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
