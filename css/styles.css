@@ -82,9 +82,9 @@ img{
 .header-nav-list:not(:last-child) {
     padding-right: 40px;
 }
-.header-nav-list-item{
+
    
-}
+
 .header-nav-links{
     font-weight: 500;
     line-height: 1.5;
